@@ -33,8 +33,7 @@ body:
       description: Or if there is something similar but it could be better.
       options:
         - label: Yeah I'm sure this doesn't already exist.
-    validations:
-      required: true
+          required: true
 
   - type: textarea
     attributes:
