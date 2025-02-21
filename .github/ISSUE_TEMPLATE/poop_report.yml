@@ -43,6 +43,13 @@ body:
     attributes:
       label: Godot Version
       description: "**Comedot is always developed for the latest Godot beta version**, sometimes compiled directly from the master source branch. Which version are you using?"
-      placeholder: 6.9
+      placeholder: "6.9"
     validations:
       required: true
+
+  - type: checkboxes
+    attributes:
+      label: "Is the code or feature you're trying to use marked `@experimental`?"
+      description: That means there are no guarantees about it and it has a very low priority of getting fixed.
+      options:
+        label: "`@experimental`"
