@@ -10,9 +10,9 @@ body:
 
   - type: dropdown
     attributes:
-      label: Report Category
-      description: What version of our software are you running?
+      label: Category
       options:
+        - Annoyance
         - Weird Shit
         - Warning
         - Error
@@ -53,3 +53,19 @@ body:
       description: That means there are no guarantees about it and it has a very low priority of getting fixed.
       options:
         - label: "`@experimental`"
+
+  - type: textarea
+    attributes:
+      label: How to recreate?
+      description: List the exact steps to see this bug
+      value: |
+        1.
+        2.
+        3.
+        ...
+
+  - type: textarea
+    attributes:
+      label: Godot Output Log
+      description: Enable "Show Debug Info" on the relevant entities/components, and copy any relevant log text from the Output panel of the Godot Editor.
+    render: shell
