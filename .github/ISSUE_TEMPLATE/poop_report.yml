@@ -63,9 +63,10 @@ body:
         2.
         3.
         ...
+      render: gdscript
 
   - type: textarea
     attributes:
       label: Godot Output Log
       description: Enable "Show Debug Info" on the relevant entities/components, and copy any relevant log text from the Output panel of the Godot Editor.
-    render: shell
+      render: shell
