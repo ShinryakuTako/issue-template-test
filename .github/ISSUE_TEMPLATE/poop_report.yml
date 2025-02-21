@@ -6,7 +6,8 @@ body:
 
   - type: markdown
       attributes:
-        value: Report an error, crash or weird ass behavior
+        value: |
+          Report an error, crash or weird ass behavior
 
   - type: dropdown
       attributes:
