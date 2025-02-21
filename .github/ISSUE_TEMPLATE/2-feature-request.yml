@@ -27,6 +27,15 @@ body:
     validations:
       required: true
 
+  - type: checkboxes
+    attributes:
+      label: Have you made sure this feature isn't already in Comedot?
+      description: Or if there is something similar but it could be better.
+      options:
+        - label: Yeah I'm sure this doesn't already exist.
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: Details
