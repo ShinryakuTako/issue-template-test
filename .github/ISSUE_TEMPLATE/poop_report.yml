@@ -1,7 +1,6 @@
 name: Bug Report
 description: Report an error, crash or weird ass behavior
 title: "[BUG] "
-type: "bug"
 labels: "bug"
 body:
   - type: markdown
