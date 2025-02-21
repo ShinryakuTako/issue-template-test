@@ -1,10 +1,8 @@
 name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+description: Report an error, crash or weird ass behavior
+title: "[BUG] "
+type: "bug"
+labels: "bug"
 body:
   - type: markdown
     attributes:
