@@ -27,6 +27,11 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    attributes:
+      label: Details
+      description: A more detailed description of your idea or request.
+    
   - type: checkboxes
     attributes:
       label: Have you made sure this feature isn't already in Comedot?
@@ -34,12 +39,7 @@ body:
       options:
         - label: Yeah I'm sure this doesn't already exist.
           required: true
-
-  - type: textarea
-    attributes:
-      label: Details
-      description: A more detailed description of your idea or request.
-    
+  
   - type: input
     attributes:
       label: What's your favorite anime?
