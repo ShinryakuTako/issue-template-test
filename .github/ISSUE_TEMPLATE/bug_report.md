@@ -4,10 +4,6 @@ about: Report an error, crash or weird ass behavior
 title: "[BUG]"
 type: 'bug'
 labels: 'bug'
----
-
-**Category:** {Behavior/Warning/Error/Crash}
-
 body:
 - type: markdown
   attributes:
@@ -16,6 +12,9 @@ body:
   attributes:
     value: |
       Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
+---
+
+**Category:** {Behavior/Warning/Error/Crash}
 
 **Describe the Bug**
 What's happening that you think should not happen?
