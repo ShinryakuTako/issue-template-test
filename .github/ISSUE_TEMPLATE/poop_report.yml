@@ -11,29 +11,14 @@ body:
   - type: dropdown
     attributes:
       label: Report Category
+      description: What version of our software are you running?
       options:
-        - "Weird Shit"
+        - Weird Shit
         - Warning
         - Error
         - Crash
         - Corruption
         - Security
-        default: 0
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Description
-      description: What's happening that you think should not happen?
-      placeholder: Player is walking funny
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Expected Behavior
-      description: What do you think should happen instead?
-      placeholder: Player should walk cool
+      default: 0
     validations:
       required: true
