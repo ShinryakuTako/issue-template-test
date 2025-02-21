@@ -3,11 +3,10 @@ description: Report an error, crash or weird ass behavior
 title: "[BUG] "
 labels: "bug"
 body:
-
   - type: markdown
-      attributes:
-        value: |
-          Report an error, crash or weird ass behavior
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
 
   - type: dropdown
       attributes:
