@@ -4,10 +4,8 @@ title: "[BUG] "
 labels: "bug"
 body:
   - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-
+      attributes:
+        value: Report an error, crash or weird ass behavior
   - type: dropdown
       attributes:
         label: Report Category
@@ -20,7 +18,6 @@ body:
         - Security
       validations:
         required: true
-
   - type: input
       attributes:
         label: Description
@@ -28,7 +25,6 @@ body:
         placeholder: Player is walking funny
       validations:
         required: true
-
   - type: input
       attributes:
         label: Expected Behavior
@@ -36,7 +32,6 @@ body:
         placeholder: Player should walk cool
       validations:
         required: true
-
   - type: input
       attributes:
         label: Godot Version
@@ -44,14 +39,12 @@ body:
         placeholder: 6.9
       validations:
         required: true
-
   - type: checkboxes
       attributes:
         label: "Is the code or feature you're trying to use marked `@experimental`?"
         description: That means there are no guarantees about it and it has a very low priority of getting fixed.
         options:
           label: "`@experimental`"
-
   - type: textarea
       attributes:
       label: Reproduction steps
@@ -62,7 +55,6 @@ body:
         3.
         ...
       render: gdscript
-
   - type: textarea
       attributes:
         label: Godot Output Log
