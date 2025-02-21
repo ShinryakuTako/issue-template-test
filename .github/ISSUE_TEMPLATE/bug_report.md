@@ -1,38 +1,50 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
+name: Bug Report
+about: Report an error, crash or weird ass behavior
+title: "[BUG]"
+type: 'bug'
+labels: 'bug'
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Category:** {Behavior/Warning/Error/Crash}
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+body:
+- type: markdown
+  attributes:
+    value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Describe the Bug**
+What's happening that you think should not happen?
+
+**Expected Behavior**
+What do you think should be happening instead?
+
+**Godot Version**
+Comedot is always developed with/for the latest Godot beta version, sometimes compiled directly from the master source branch. Which version are you using?
+
+**Experimental**
+Is the code or feature you're trying to use marked `@experimental`? That means there are no guarantees about it and it has a very low priority of getting fixed.
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+Add screenshots or video recordings, if any, to show exactly what's wrong.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Godot Output Log**
+Enable "Show Debug Info" on the relevant entities/components, and copy any relevant log text from the Output panel of the Godot Editor.
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**To Recreate**
+How to see this bug? List the exact steps:
+1. Start with a new copy of the Comedot repository
+2. Edit or create this scene/node: `…`
+3. Add the following script/code: `…`
+5. Play the scene and perform these actions: …
+6. If it's a crash or error, include the file and line number: `…`
 
-**Additional context**
-Add any other context about the problem here.
+**Your Coomputer**
+OS: {Linux/macOS/Windows} + version
+
+**What's your favorite anime?**
+Ranma ½
